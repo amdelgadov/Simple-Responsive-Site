@@ -1,0 +1,11 @@
+body {
+  font-family: "Imperial Script", cursive;
+  text-align: center;
+  font-weight: 900;
+}
+
+.imperial-script-regular {
+  font-family: "Imperial Script", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
