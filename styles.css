@@ -2,6 +2,9 @@ body {
   font-family: "Imperial Script", cursive;
   text-align: center;
   font-weight: 900;
+  margin: auto;
+width: 60%;
+  
 }
 
 .imperial-script-regular {
@@ -9,3 +12,10 @@ body {
   font-weight: 800;
   font-style: normal;
 }
+	
+main{
+	display: grid;
+	grid-gap: 1rem;
+		grid-template-columns: 1fr 1fr 1fr 
+	}
+	
