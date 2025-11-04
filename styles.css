@@ -7,15 +7,22 @@ width: 60%;
   
 }
 
-.imperial-script-regular {
-  font-family: "Imperial Script", cursive;
-  font-weight: 800;
-  font-style: normal;
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 20px 0;
+  justify-items: center;
 }
-	
-main{
-	display: grid;
-	grid-gap: 1rem;
-		grid-template-columns: 1fr 1fr 1fr 
-	}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figcaption {
+  font-family: "Imperial Script", cursive;
+  margin-top: 8px;
+  font-size: 1.2em;
+}
 	
